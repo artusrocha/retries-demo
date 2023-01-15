@@ -1,4 +1,4 @@
-package com.example.demo.a.handlers;
+package com.example.retries.handlers;
 
 import java.util.UUID;
 import java.util.Set;
@@ -10,12 +10,12 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
-import com.example.demo.a.data.entities.Customer;
+import com.example.retries.data.entities.Customer;
 
-import com.example.demo.a.data.repositories.CustomerRepository;
-import com.example.demo.a.data.repositories.LoanItemRepository;
-import com.example.demo.a.dto.CustomerReportDto;
-import com.example.demo.a.dto.ILoanedBookDto;
+import com.example.retries.data.repositories.CustomerRepository;
+import com.example.retries.data.repositories.LoanItemRepository;
+import com.example.retries.dtos.CustomerReportDto;
+import com.example.retries.dtos.ILoanedBookDto;
 
 import lombok.RequiredArgsConstructor;
 

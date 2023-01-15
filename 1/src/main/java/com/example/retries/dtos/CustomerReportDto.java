@@ -1,14 +1,12 @@
-package com.example.demo.a.dto;
+package com.example.retries.dtos;
 
 import java.util.List;
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 import lombok.Getter;
 import lombok.Builder;
 
-import com.example.demo.a.data.entities.Customer;
-import com.example.demo.a.dto.ILoanedBookDto;
+import com.example.retries.data.entities.Customer;
 
 @Getter
 @Builder

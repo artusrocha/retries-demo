@@ -1,4 +1,4 @@
-package com.example.demo.a.data.entities;
+package com.example.retries.data.entities;
 
 import java.time.LocalDateTime;
 import java.util.List;

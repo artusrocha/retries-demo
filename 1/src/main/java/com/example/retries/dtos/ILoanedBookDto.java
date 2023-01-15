@@ -1,10 +1,7 @@
-package com.example.demo.a.dto;
+package com.example.retries.dtos;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
-
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
