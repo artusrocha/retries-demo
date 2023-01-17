@@ -1,0 +1,18 @@
+server.port: ${PORT:8080}
+
+spring:
+  jackson.serialization.FAIL_ON_EMPTY_BEANS: false
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: FULL
+        errorDecoder: com.example.retries.config.Custom5xxErrorDecoder
+        retryer: com.example.retries.config.FeignRetryer
+
+app:
+  services:
+    service-b: localhost:8081
